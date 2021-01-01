@@ -72,7 +72,8 @@
           },
           "configurations": {
             "production": {
-              "browserTarget": "greenebean:build:production"
+              "browserTarget": "greenebean:build:production",
+              "proxyConfig": "proxy.conf.json"
             }
           }
         },
@@ -127,5 +128,8 @@
       }
     }
   },
-  "defaultProject": "greenebean"
+  "defaultProject": "greenebean",
+  "cli": {
+    "analytics": "4480ae9e-7110-465f-9c37-d43a943d64a3"
+  }
 }
